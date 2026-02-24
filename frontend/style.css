@@ -1,0 +1,51 @@
+body { 
+    font-family: system-ui, Arial; 
+    margin: 0; 
+    background: #f6f7fb; 
+}
+
+.wrap { 
+    max-width: 700px; 
+    margin: 40px auto; 
+    padding: 0 16px; 
+}
+
+.card { 
+    background: white; 
+    padding: 16px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,.08); 
+}
+
+input, textarea { 
+    width: 100%; 
+    margin: 8px 0; 
+    padding: 10px; 
+    border-radius: 10px; 
+    border: 1px solid #ddd; 
+}
+
+button { 
+    padding: 8px 12px; 
+    border: 0; 
+    border-radius: 10px; 
+    cursor: pointer; 
+}
+
+.note { 
+    background: white; 
+    margin-top: 14px; 
+    padding: 14px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,.06); 
+}
+
+.note-head { 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
+}
+
+.note-head button { 
+    margin-left: 6px; 
+}
